@@ -1,21 +1,21 @@
 <article>
   <a href="/dashboard"> &larr; Back to dashboard</a>
-  <h2>
+  <h2 class="m-5 py-2 px-4 text-sm bg-black text-green-300">
     Edit Post
   </h2>
   <form class="edit-post-form">
     <div>
-      <input name="post-title" type="text" value="{{post.title}}" />
+      <input name="post-title" type="text" class='text-black' value="{{post.title}}" />
     </div>
     <div>    
-      <div>Content</div>
+      <div class="m-5 py-2 px-4 text-sml bg-black text-green-300">Content</div>
 
-      <input name="post-comment" type="text" value="{{post.description}}" />
+      <input name="post-comment" type="text" class='text-black' value="{{post.description}}" />
             
     </div>
 
-    <button type="submit">Update post</button>
-    <button type="button" class="delete-post-btn">Delete post</button>
+    <button type="submit" class= "update-post-btn m-5 py-2 px-4 border-4 text-2xl border-green-300 bg-black text-green-300">Update post</button>
+    <button type="button" class="delete-post-btn m-5 py-2 px-4 border-4 text-2xl border-green-300 bg-black text-green-300">Delete post</button>
   </form>
 </article>
 

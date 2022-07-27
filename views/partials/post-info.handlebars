@@ -1,9 +1,9 @@
-<article class="post">
-  <div class="title">
-    <a href="/post/{{id}}" target="_blank">{{title}}</a>
-    <span class="user-info">{{user.username}} on {{format_date created_at}}</span></a>  </div>
-  <div class="meta">
+<article class="m-5 py-2 px-4 text-sm border-2 border-green-300 bg-slate-400 text-green-300">
+  <div class="m-5 py-2 px-4 text-sm bg-white border-2 border-green-200 text-green-300">
+    <a href="/post/{{id}}" target="_blank" class="m-5 py-2 px-4 text-xl bg-white h-auto text-red-900">{{title}}</a>
+    <span class="m-5 py-2 px-4 text-sm bg-white text-blue-900">{{user.username}} on {{format_date created_at}}</span></a>  </div>
+  <div class="m-5 py-2 px-4 text-sm bg-white h-auto text-red-900">
     |
-    <a href="/post/{{id}}">{{description}}</a>
+    <a href="/post/{{id}}" class="m-5 py-2 px-4 h-40 text-xs bg-white text-red-900">{{description}}</a>
   </div>
 </article>
