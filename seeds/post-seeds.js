@@ -3,17 +3,17 @@ const { Post } = require('../models');
 const postdata = [
   {
     title: 'Donec posuere metus vitae ipsum.',
-    description: 'https://buzzfeed.com/in/imperdiet/et/commodo/vulputate.png',
+    description: 'lorem ipsum dolor sit amet, consectetur',
     user_id: 1
   },
   {
     title: 'Morbi non quam nec dui luctus rutrum.',
-    description: 'https://nasa.gov/donec.json',
+    description: 'lorem ipsum dolor sit amet, consectetur',
     user_id: 2
   },
   {
     title: 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.',
-    description: 'https://europa.eu/parturient/montes/nascetur/ridiculus/mus/etiam/vel.aspx',
+    description: 'lorem ipsum dolor sit amet, consectetur',
     user_id: 3
   },
 ];
