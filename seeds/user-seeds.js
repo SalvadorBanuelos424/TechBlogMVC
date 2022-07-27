@@ -14,13 +14,13 @@ const userdata = [
   },
   {
     username: 'LAKERZphan',
-    email: 'test2@test.com',
-    password: 'test2'
+    email: 'test3@test.com',
+    password: 'test3'
   },
   {
     username: 'Memebot',
-    email: 'test3@test.com',
-    password: 'test3'
+    email: 'test4@test.com',
+    password: 'test4'
   }
 ];
 
